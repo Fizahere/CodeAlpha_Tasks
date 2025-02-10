@@ -1,0 +1,66 @@
+{
+    "songs": [
+        {
+            "id":1,
+            "song": "songs/The Neighbourhood - Sweater Weather.mp3",
+            "name": "Sweater Weather",
+            "artist": "The Neighbourhood",
+            "cover":"images/song5.png",
+            "category":"Classic"
+        },
+        {
+            "id":2,
+            "song": "songs/Lana Del Rey - Brooklyn Baby.mp3",
+            "name": "Brooklyn Baby",
+            "artist": "Lana del rey",
+            "cover":"images/song6.png",
+            "category":"Classic"
+
+        },
+        {
+            "id":3,
+            "song": "songs/Tom Odell - Another Love.mp3",
+            "name": "Another Love",
+            "artist": "Tom Odell",
+            "cover":"images/song7.png",
+            "category":"Classic"
+
+        },
+        {
+            "id":4,
+            "song": "songs/yung kai - blue.mp3",
+            "name": "Blue",
+            "artist": "Yung kai",
+            "cover":"images/song4.png",
+            "category":"Classic"
+
+        },
+        {
+            "id":5,
+            "song": "songs/Anuv Jain - Jo Tum Mere Ho.mp3   ",
+            "name": "Jo tum mere ho",
+            "artist": "Anuv Jain",
+            "cover":"images/song1.png",
+            "category":"Classic"
+
+        },
+        {
+            "id":6,
+            "song": "songs/Lady Gaga, Bruno Mars - Die With A Smile.mp3",
+            "name": "Die with a smile",
+            "artist": "Bruno mars",
+            "cover":"images/song3.png",
+            "category":"Classic"
+
+        },
+        {
+            "id":7,
+            "song": "songs/Prateek Kuhad - Co2.mp3 ",
+            "name": "CO2",
+            "artist": "Prateek Kuhad",
+            "cover":"images/song8.png",
+            "category":"Classic"
+        }
+    ]
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="header">Calculator</h1>
+    <div class="main">
+        <div class="full-screen">
+            <div class="screen" id="screen"></div>
+            <div class="symbol" id="symbol"></div>
+        </div>
+        <ul>
+            <li onclick="clickHandler(1)">1</li>
+            <li onclick="clickHandler(2)">2</li>
+            <li onclick="clickHandler(3)">3</li>
+            <li onclick="setSymobol('-')">-</li>
+        </ul>
+        <ul>
+            <li onclick="clickHandler(4)">4</li>
+            <li onclick="clickHandler(5)">5</li>
+            <li onclick="clickHandler(6)">6</li>
+            <li onclick="setSymobol('*')">X</li>
+        </ul>
+        <ul>
+            <li onclick="clickHandler(7)">7</li>
+            <li onclick="clickHandler(8)">8</li>
+            <li onclick="clickHandler(9)">9</li>
+            <li onclick="setSymobol('+')">+</li>
+        </ul>
+        <ul>
+            <li onclick="clickHandler(0)">0</li>
+            <li onclick="setSymobol('/')">/</li>
+            <li onclick="calulateHandler()">=</li>
+            <li onclick="removeHandler()">Dlt</li>
+            <li onclick="clearScreenHandler()">Clear</li>
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

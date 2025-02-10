@@ -1,0 +1,70 @@
+/* Hide default slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: transparent;
+    border: none;
+}
+
+/* Custom slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.phonograph {
+    position: relative;
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+}
+
+.record {
+    /* position: absolute;
+    top: 35px;
+    width: 25rem;
+    left: 51px !important; */
+    animation: spin 6s linear infinite;
+    transform-origin: center;
+}
+
+.animate-wave {
+    animation-delay: calc(1s - var(--i));
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.wave {
+    animation: wave 1s linear infinite;
+    animation-delay: calc(1s - var(--i));
+}
+
+@keyframes wave {
+    0% {
+        scale: 0;
+    }
+
+    50% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 0;
+    }
+}
